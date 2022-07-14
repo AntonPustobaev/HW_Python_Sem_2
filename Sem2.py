@@ -3,15 +3,15 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-def sum_num(a):
-    result = 0
-    for i in range(len(a)) :
-        if a[i]!= ',':
-            result += int(a[i])
-    print(f'{a} -> {result}')
+# def sum_num(a):
+#     result = 0
+#     for i in range(len(a)) :
+#         if a[i]!= ',':
+#             result += int(a[i])
+#     print(f'{a} -> {result}')
 
-a = input('Введите число ')
-sum_num(a)
+# a = input('Введите число ')
+# sum_num(a)
 
 
 
@@ -21,7 +21,7 @@ sum_num(a)
 
 N = int(input('Введите N: '))
 
-def GetSequence(N):
+def GetChain(N):
     result = []
     for i in range(1, N+1):
         if i > 1:
@@ -31,4 +31,4 @@ def GetSequence(N):
     return result
 
 
-print(f'N = {N}, тогда {GetSequence(N)}')
+print(f'N = {N}, тогда {GetChain(N)}')
